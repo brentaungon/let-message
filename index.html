@@ -725,60 +725,58 @@ body::before {
             <div class="message">
 
                 <p class="reveal">
+                    Hi Mommy!
+                </p>
+
+                <p class="reveal">
                     Tomorrow is your day.
                 </p>
 
                 <p class="reveal">
-                    I know you’ve been preparing for this for a long time,
+                    I know ga andam gid ka for a long time,
                     and I know there were days when you felt tired,
-                    scared, or unsure of yourself.
+                    scared, or unsure sa imong kaugalingon.
                     But please remember how far you’ve already come.
                     You made it this far for a reason.
                 </p>
 
                 <p class="reveal bisaya">
-                    Bisag dili kaayo ta magkasinabtanay,
-                    know that I’m always rooting for you—
-                    not just for tomorrow,
-                    but for everything you’re facing
-                    and every dream you’re chasing in life.
-                </p>
-
-                <p class="reveal">
-                    I may not always be there beside you,
-                    and I may not always know the right words to say,
+                    Bisan dili kaayo ta magkasinabtanay,
+                    know that I’m always rooting for you dili lang for tomorrow,
+                    but for everything you’re facing and every dream
+                    you’re chasing in life.
+                    I may not always be there sa imong tapad,
+                    and I may not always know the right words nga e storya,
                     but quietly, I’ll always wish the best for you.
                 </p>
 
                 <p class="reveal">
-                    I don’t want to add pressure or expectations.
+                    I care about you, I believe in you,
+                    and I love you.
+                    Even from a distance,
+                    I’ll always be cheering for you.
+                </p>
+
+                <p class="reveal">
+                    Dili ko mo add ug pressure or expectations.
                     I just want you to walk into that room
                     with a calm heart, trust everything you’ve learned,
                     and give it your best.
                 </p>
 
                 <p class="reveal">
-                    And if you ever wonder who is still wishing
-                    for your success from a distance…
-                    maybe you already know the answer.
-                </p>
-
-                <p class="reveal">
                     Good luck on your LET tomorrow.
                     I’m proud of you, more than you probably realize.
-                </p>
-
-                <p class="reveal">
-                    Whatever happens, I hope you know that somewhere
-                    out here, there’s a heart that will always be
-                    rooting for you.
+                    Whatever happens, I hope you know that somewhere out here,
+                    there’s a heart that will always be rooting for you. 🤍
                 </p>
 
                 <div class="signature reveal">
-                    Always quietly rooting for you. 🤍
-                    ~Daddy
+                    Always rooting for you. 🤍
                 </div>
-
+ <div class="signature reveal">
+                    ~ Daddy 🤍
+                </div>
             </div>
 
         </article>
@@ -918,11 +916,6 @@ function openLetter() {
 
     envelope.classList.add("open");
 
-    /*
-        Small delay so the envelope animation
-        finishes before the page appears.
-    */
-
     setTimeout(() => {
 
         opening.classList.add("hide");
@@ -948,12 +941,6 @@ function openLetter() {
     }, 1500);
 
 
-    /*
-        Music begins after user interaction.
-        This works better with mobile browser
-        autoplay restrictions.
-    */
-
     setTimeout(() => {
 
         music.volume = 0.35;
@@ -965,11 +952,6 @@ function openLetter() {
 
             })
             .catch(() => {
-
-                /*
-                    If browser blocks playback,
-                    the user can tap the music button.
-                */
 
             });
 
